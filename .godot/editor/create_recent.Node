@@ -1,6 +1,12 @@
+<<<<<<< Updated upstream
 NinePatchRect
 AudioStreamPlayer
 AudioStreamPlayer2D
+=======
+Camera2D
+Node
+TileMap
+>>>>>>> Stashed changes
 CollisionShape2D
 AnimatedSprite2D
 CharacterBody2D

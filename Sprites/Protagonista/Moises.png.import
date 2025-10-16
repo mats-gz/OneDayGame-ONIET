@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgufb4sk5s0rh"
-path="res://.godot/imported/Moises.png-2d23ce0f30a63dadf6a0ef75060756e6.ctex"
+path="res://.godot/imported/Moises.png-d51970b1f15390f815da75d127aacbee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Moises.png"
-dest_files=["res://.godot/imported/Moises.png-2d23ce0f30a63dadf6a0ef75060756e6.ctex"]
+source_file="res://Sprites/Protagonista/Moises.png"
+dest_files=["res://.godot/imported/Moises.png-d51970b1f15390f815da75d127aacbee.ctex"]
 
 [params]
 

@@ -1,7 +1,8 @@
-[gd_scene load_steps=9 format=3 uid="uid://dfpj4jaewt82a"]
+[gd_scene load_steps=14 format=3 uid="uid://dfpj4jaewt82a"]
 
-[ext_resource type="Texture2D" uid="uid://bgufb4sk5s0rh" path="res://Sprites/Moises.png" id="1_f2tf4"]
-[ext_resource type="Script" uid="uid://bcjwt6pki4lef" path="res://Guzman/Protagonista.gd" id="2_t1xku"]
+[ext_resource type="Texture2D" uid="uid://bgufb4sk5s0rh" path="res://Sprites/Protagonista/Moises.png" id="1_f2tf4"]
+[ext_resource type="Script" uid="uid://bavnkdfestgic" path="res://Guzman/Scripts/Protagonista.gd" id="1_t1xku"]
+[ext_resource type="Texture2D" uid="uid://dxun4ela68xj1" path="res://Sprites/Protagonista/moises-quieto.png" id="3_pda05"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t1xku"]
 atlas = ExtResource("1_f2tf4")
@@ -18,6 +19,22 @@ region = Rect2(0, 128, 128, 128)
 [sub_resource type="AtlasTexture" id="AtlasTexture_pbl72"]
 atlas = ExtResource("1_f2tf4")
 region = Rect2(128, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ajwpp"]
+atlas = ExtResource("3_pda05")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yrya1"]
+atlas = ExtResource("3_pda05")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7qyiv"]
+atlas = ExtResource("3_pda05")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f8gdg"]
+atlas = ExtResource("3_pda05")
+region = Rect2(128, 0, 128, 128)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ajwpp"]
 animations = [{
@@ -37,19 +54,40 @@ animations = [{
 "loop": true,
 "name": &"Corriendo",
 "speed": 9.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ajwpp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yrya1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7qyiv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f8gdg")
+}],
+"loop": true,
+"name": &"Quieto",
+"speed": 2.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yrya1"]
-radius = 27.0
-height = 114.0
+radius = 13.0
+height = 54.0
 
 [node name="Protagonista" type="CharacterBody2D"]
+script = ExtResource("1_t1xku")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-2, -26)
+scale = Vector2(0.445312, 0.46875)
 sprite_frames = SubResource("SpriteFrames_ajwpp")
-animation = &"Corriendo"
-frame_progress = 0.592567
-script = ExtResource("2_t1xku")
+animation = &"Quieto"
+autoplay = "Quieto"
+frame_progress = 0.978563
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -27)
 shape = SubResource("CapsuleShape2D_yrya1")

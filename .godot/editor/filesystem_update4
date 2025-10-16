@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
 res://Arhex/Menu Principal/menu_principal.tscn
 res://Guzman/Personajes/Protagonsita.tscn
 res://Arhex/Menu Principal/menu_principal.gd
+=======
+res://Guzman/Personajes/Protagonsita.tscn
+res://Juego/nivel_1.tscn
+res://Guzman/Scripts/Protagonista.gd
+>>>>>>> Stashed changes
