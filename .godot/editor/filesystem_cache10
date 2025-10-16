@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+::res://::1760631516
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 ::res://::1760629947
@@ -47,13 +48,22 @@ SIL Open Font License.txt::TextFile/TextFile::-1::1760627091::0::1::::<><><>0<>0
 ::res://Arhex/Menu Principal/::1760627623
 menu_principal.gd::GDScript/GDScript::7494547970435306384::1760627091::0::1::::<>Control<><>0<>0<><>::
 menu_principal.tscn::PackedScene/PackedScene::4100148132100086239::1760627623::0::1::::<><><>0<>0<><>::uid://de1od0juquemi::::res://Arhex/Menu Principal/menu_principal.gd<>uid://captp0je2c6fr::::res://Arhex/Menu Principal/Texturas/Fondo_Titulo.png<>uid://6fkfu2veoax6::::res://Arhex/arbutus/Arbutus-Regular.ttf<>uid://4j2xfio1aj5v::::res://Arhex/Menu Principal/Texturas/gilada.png<>uid://cgp615ppp3uf0::::res://Arhex/Menu Principal/Texturas/boton2plus.png<>uid://2s3s2tsnxkd3::::res://Arhex/Menu Principal/Texturas/boton1plus.png
+menu_principal.tscn::PackedScene/PackedScene::4100148132100086239::1760627623::0::1::::<><><>0<>0<><>::uid://de1od0juquemi::::res://Arhex/Menu Principal/menu_principal.gd<>uid://captp0je2c6fr::::res://Arhex/Menu Principal/Texturas/Fondo_Titulo.png<>uid://6fkfu2veoax6::::res://Arhex/arbutus/Arbutus-Regular.ttf<>uid://4j2xfio1aj5v::::res://Arhex/Menu Principal/Texturas/gilada.png<>uid://cgp615ppp3uf0::::res://Arhex/Menu Principal/Texturas/boton2plus.png<>uid://2s3s2tsnxkd3::::res://Arhex/Menu Principal/Texturas/boton1plus.png
 ::res://Arhex/Menu Principal/Texturas/::1760627310
 boton1plus.png::CompressedTexture2D/CompressedTexture2D::1933991246205562930::1760627091::1760627310::1::::<><><>0<>0<>7dc80f854ed11c0cdaa76ec8ad9e8771<>res://.godot/imported/boton1plus.png-0b5de8c89ea2ec31d137b7bdd21faacd.ctex::
 boton2plus.png::CompressedTexture2D/CompressedTexture2D::5226870352517851523::1760627091::1760627310::1::::<><><>0<>0<>15bf8bb609459ee42efc328406beb4d2<>res://.godot/imported/boton2plus.png-cfd3d033f7d60512afb6ed6e42f7f2eb.ctex::
+fondiu.png::CompressedTexture2D::645052493745991342::1760633700::1760633772::1::::<><><>0<>0<>05659224da72adbce2fb781191f0a94a<>res://.godot/imported/fondiu.png-2bfb58734f5b56249d7b92e6f1ad0b62.ctex::
 Fondo_Titulo.png::CompressedTexture2D/CompressedTexture2D::4804988770673165751::1760627091::1760627310::1::::<><><>0<>0<>23ea212bf1894b2f021972d0e1bcdf22<>res://.godot/imported/Fondo_Titulo.png-ea1989b5946741d9bb930941b97490dd.ctex::
 gilada.png::CompressedTexture2D/CompressedTexture2D::2055736573000022421::1760627091::1760627310::1::::<><><>0<>0<>1c42ebee386f7182fc3781bd0387ea95<>res://.godot/imported/gilada.png-365484a2961575ca2c3bd218fbdf9b27.ctex::
 ::res://Guzman/::1760630993
+::res://Guzman/::1760630993
 Usuario.txt::TextFile/TextFile::-1::1760621724::0::1::::<><><>0<>0<><>::
+::res://Guzman/Personajes/::1760631189
+Protagonsita.tscn::PackedScene::7541770649460580114::1760631189::0::1::::<><><>0<>0<><>::uid://bgufb4sk5s0rh::::res://Sprites/Protagonista/Moises.png<>uid://bavnkdfestgic::::res://Guzman/Scripts/Protagonista.gd
+::res://Guzman/Scripts/::1760631136
+Protagonista.gd::GDScript::2430579960873991586::1760631136::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Juego/::1760631189
+nivel_1.tscn::PackedScene::6539398843941216649::1760631189::0::1::::<><><>0<>0<><>::uid://bbgxclryhg3h0::::res://Sprites/Tilesets/Tileset_Pisos.png<>uid://dfpj4jaewt82a::::res://Guzman/Personajes/Protagonsita.tscn
 ::res://Guzman/Personajes/::1760631189
 Protagonsita.tscn::PackedScene::7541770649460580114::1760631189::0::1::::<><><>0<>0<><>::uid://bgufb4sk5s0rh::::res://Sprites/Protagonista/Moises.png<>uid://bavnkdfestgic::::res://Guzman/Scripts/Protagonista.gd
 ::res://Guzman/Scripts/::1760631136
@@ -63,7 +73,13 @@ nivel_1.tscn::PackedScene::6539398843941216649::1760631189::0::1::::<><><>0<>0<>
 ::res://Musica/::1760621741
 Musica.txt::TextFile/TextFile::-1::1760621766::0::1::::<><><>0<>0<><>::
 ::res://Sprites/::1760628887
+::res://Sprites/::1760628887
 Sprites.txt::TextFile/TextFile::-1::1760621764::0::1::::<><><>0<>0<><>::
+::res://Sprites/Protagonista/::1760632698
+moises-quieto.png::CompressedTexture2D::8815734345893449056::1760632698::1760632698::1::::<><><>0<>0<>ddbf46fe71eaaf36689848eb5ae9d5b2<>res://.godot/imported/moises-quieto.png-766855baf66c408cfeb47b9d255e2310.ctex::
+Moises.png::CompressedTexture2D/CompressedTexture2D::2849148222839043037::1760622236::1760628876::1::::<><><>0<>0<>a39d17f3df93744367f5757059b2babb<>res://.godot/imported/Moises.png-d51970b1f15390f815da75d127aacbee.ctex::
+::res://Sprites/Tilesets/::1760630227
+Tileset_Pisos.png::CompressedTexture2D::2470396461395530199::1760629923::1760630227::1::::<><><>0<>0<>db47f22a7f1542006aa50a3b5fa51bbc<>res://.godot/imported/Tileset_Pisos.png-2902d0975aa00d8a6e820abae277d24d.ctex::
 ::res://Sprites/Protagonista/::1760632698
 moises-quieto.png::CompressedTexture2D::8815734345893449056::1760632698::1760632698::1::::<><><>0<>0<>ddbf46fe71eaaf36689848eb5ae9d5b2<>res://.godot/imported/moises-quieto.png-766855baf66c408cfeb47b9d255e2310.ctex::
 Moises.png::CompressedTexture2D/CompressedTexture2D::2849148222839043037::1760622236::1760628876::1::::<><><>0<>0<>a39d17f3df93744367f5757059b2babb<>res://.godot/imported/Moises.png-d51970b1f15390f815da75d127aacbee.ctex::
