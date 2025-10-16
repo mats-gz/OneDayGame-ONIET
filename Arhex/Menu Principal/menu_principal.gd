@@ -1,6 +1,9 @@
 extends Control
 
+@onready var musica = $Musica_Menu
 
+func _ready():
+	musica.play()
 
 func _on_jugar_button_down() -> void:
 	get_tree().quit()

@@ -1,8 +1,9 @@
+NinePatchRect
+AudioStreamPlayer
+AudioStreamPlayer2D
 CollisionShape2D
 AnimatedSprite2D
 CharacterBody2D
-
 VBoxContainer
 Button
-NinePatchRect
 Label
