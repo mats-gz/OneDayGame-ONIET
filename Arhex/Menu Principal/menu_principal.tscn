@@ -52,6 +52,8 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = -17.0
+offset_bottom = -17.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = ExtResource("3_tkvwk")
@@ -81,7 +83,7 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 15.0
-offset_top = 32.0
+offset_top = -10.0
 offset_right = -15.0
 offset_bottom = -22.0
 grow_horizontal = 2
@@ -106,6 +108,16 @@ theme_override_styles/normal = SubResource("StyleBoxTexture_bl3ni")
 text = "Opciones
 "
 
+[node name="Controles" type="Button" parent="VBoxContainer2/NinePatchRect2/VBoxContainer"]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_tkvwk")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/hover = SubResource("StyleBoxTexture_yc16k")
+theme_override_styles/normal = SubResource("StyleBoxTexture_bl3ni")
+text = "Controles
+"
+
 [node name="Salir" type="Button" parent="VBoxContainer2/NinePatchRect2/VBoxContainer"]
 custom_minimum_size = Vector2(0, 120)
 layout_mode = 2
@@ -123,4 +135,5 @@ parameters/looping = true
 
 [connection signal="button_down" from="VBoxContainer2/NinePatchRect2/VBoxContainer/Jugar" to="." method="_on_jugar_button_down"]
 [connection signal="button_down" from="VBoxContainer2/NinePatchRect2/VBoxContainer/Opciones" to="." method="_on_opciones_button_down"]
+[connection signal="button_down" from="VBoxContainer2/NinePatchRect2/VBoxContainer/Controles" to="." method="_on_controles_button_down"]
 [connection signal="button_down" from="VBoxContainer2/NinePatchRect2/VBoxContainer/Salir" to="." method="_on_salir_button_down"]
