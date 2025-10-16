@@ -1,0 +1,55 @@
+[gd_scene load_steps=9 format=3 uid="uid://dfpj4jaewt82a"]
+
+[ext_resource type="Texture2D" uid="uid://bgufb4sk5s0rh" path="res://Sprites/Moises.png" id="1_f2tf4"]
+[ext_resource type="Script" uid="uid://bcjwt6pki4lef" path="res://Guzman/Protagonista.gd" id="2_t1xku"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t1xku"]
+atlas = ExtResource("1_f2tf4")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pda05"]
+atlas = ExtResource("1_f2tf4")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_leepo"]
+atlas = ExtResource("1_f2tf4")
+region = Rect2(0, 128, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pbl72"]
+atlas = ExtResource("1_f2tf4")
+region = Rect2(128, 128, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ajwpp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t1xku")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pda05")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_leepo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pbl72")
+}],
+"loop": true,
+"name": &"Corriendo",
+"speed": 9.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yrya1"]
+radius = 27.0
+height = 114.0
+
+[node name="Protagonista" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ajwpp")
+animation = &"Corriendo"
+frame_progress = 0.592567
+script = ExtResource("2_t1xku")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_yrya1")

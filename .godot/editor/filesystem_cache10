@@ -1,2 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1760620862
+::res://::1760620941
+::res://Arce/::1760621708
+Usuario.txt::TextFile::-1::1760621704::0::1::::<><><>0<>0<><>::
+::res://Arhex/::1760621710
+Usuario.txt::TextFile::-1::1760621717::0::1::::<><><>0<>0<><>::
+::res://Guzman/::1760621719
+Usuario.txt::TextFile::-1::1760621724::0::1::::<><><>0<>0<><>::
+::res://Musica/::1760621741
+Musica.txt::TextFile::-1::1760621766::0::1::::<><><>0<>0<><>::
+::res://Sprites/::1760622236
+Moises.png::CompressedTexture2D::2849148222839043037::1760622236::1760622237::1::::<><><>0<>0<>6c87f45241d8cce3a136c479034a3a4c<>res://.godot/imported/Moises.png-2d23ce0f30a63dadf6a0ef75060756e6.ctex::
+Sprites.txt::TextFile::-1::1760621764::0::1::::<><><>0<>0<><>::
