@@ -68,7 +68,7 @@ scale = Vector2(0.414063, 0.398438)
 sprite_frames = SubResource("SpriteFrames_40nuc")
 animation = &"Idle"
 autoplay = "Idle"
-frame_progress = 0.950278
+frame_progress = 0.125955
 
 [node name="RayCastDer" type="RayCast2D" parent="."]
 target_position = Vector2(33, 1)
@@ -85,3 +85,5 @@ shape = SubResource("RectangleShape2D_oslch")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitBoxWall"]
 shape = SubResource("CircleShape2D_vjyrh")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

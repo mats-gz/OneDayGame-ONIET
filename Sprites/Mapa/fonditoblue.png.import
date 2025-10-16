@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bbgxclryhg3h0"
-path="res://.godot/imported/Tileset_Pisos.png-2902d0975aa00d8a6e820abae277d24d.ctex"
+uid="uid://c4dhlnvfxhr4i"
+path="res://.godot/imported/fonditoblue.png-d394ad94d3e7151c6dcbf0a1f350b06b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Tilesets/Tileset_Pisos.png"
-dest_files=["res://.godot/imported/Tileset_Pisos.png-2902d0975aa00d8a6e820abae277d24d.ctex"]
+source_file="res://Sprites/Mapa/fonditoblue.png"
+dest_files=["res://.godot/imported/fonditoblue.png-d394ad94d3e7151c6dcbf0a1f350b06b.ctex"]
 
 [params]
 

@@ -5,3 +5,11 @@ res://Arhex/Menu Principal/menu_principal.gd
 res://Arhex/Controles/controles.tscn
 res://Arhex/Controles/controles.gd
 res://Arce/fantasma.tscn
+res://Arce/temporizador.tscn
+res://Arhex/Pausa/menu_pausa.tscn
+res://Arhex/Pausa/menu_pausa.gd
+res://Juego/hud.gd
+res://Juego/menu_pausa2.gd
+res://Arce/fantasma.gd
+res://Guzman/Scripts/Protagonista.gd
+res://Juego/canvas_layer.gd

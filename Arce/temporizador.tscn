@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0xcj8qtvt3bt"]
+
+[ext_resource type="Script" path="res://Arce/temporizador.gd" id="1_jvygl"]
+
+[node name="Temporizador" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jvygl")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.62
+anchor_bottom = 0.508
+offset_left = 378.0
+offset_top = 49.0
+offset_right = -18.24
+offset_bottom = -140.184
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

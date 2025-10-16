@@ -65,6 +65,13 @@ offset_right = 336.0
 offset_bottom = 309.0
 texture = ExtResource("4_52fua")
 
+[node name="NinePatchRect3" type="NinePatchRect" parent="NinePatchRect2/NinePatchRect3"]
+offset_left = 143.0
+offset_top = 192.0
+offset_right = 340.0
+offset_bottom = 383.0
+texture = ExtResource("4_52fua")
+
 [node name="NinePatchRect4" type="NinePatchRect" parent="NinePatchRect2"]
 layout_mode = 0
 offset_left = 3.0
@@ -126,6 +133,17 @@ offset_bottom = 72.0
 theme_override_fonts/font = ExtResource("1_3io6q")
 theme_override_font_sizes/font_size = 25
 text = "A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="NinePatchRect2/Label"]
+offset_left = 282.0
+offset_top = 309.0
+offset_right = 359.0
+offset_bottom = 379.0
+theme_override_fonts/font = ExtResource("1_3io6q")
+theme_override_font_sizes/font_size = 25
+text = "P"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -239,7 +257,7 @@ grow_horizontal = 2
 grow_vertical = 0
 theme_override_fonts/font = ExtResource("1_3io6q")
 theme_override_font_sizes/font_size = 50
-text = "Saltar"
+text = "Pausar"
 horizontal_alignment = 1
 vertical_alignment = 1
 
