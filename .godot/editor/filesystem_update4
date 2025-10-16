@@ -1,2 +1,7 @@
 res://Guzman/Personajes/Protagonsita.tscn
 res://Juego/nivel_1.tscn
+res://Arhex/Menu Principal/menu_principal.tscn
+res://Arhex/Menu Principal/menu_principal.gd
+res://Arhex/Controles/controles.tscn
+res://Arhex/Controles/controles.gd
+res://Arce/fantasma.tscn

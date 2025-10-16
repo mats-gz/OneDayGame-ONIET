@@ -1,7 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://byoe3t30cf680"]
+[gd_scene load_steps=11 format=3 uid="uid://byoe3t30cf680"]
 
 [ext_resource type="Script" uid="uid://de1od0juquemi" path="res://Arhex/Menu Principal/menu_principal.gd" id="1_1fwe4"]
 [ext_resource type="Texture2D" uid="uid://jgp6j5ukld6m" path="res://Arhex/Menu Principal/Texturas/fondiu.png" id="2_hoec3"]
+[ext_resource type="PackedScene" uid="uid://c0fy7cy7t6e30" path="res://Juego/nivel_1.tscn" id="2_tkvwk"]
+[ext_resource type="PackedScene" uid="uid://dkpld8fl3btqh" path="res://Arhex/Controles/controles.tscn" id="3_5eowh"]
 [ext_resource type="FontFile" uid="uid://6fkfu2veoax6" path="res://Arhex/arbutus/Arbutus-Regular.ttf" id="3_tkvwk"]
 [ext_resource type="Texture2D" uid="uid://cgp615ppp3uf0" path="res://Arhex/Menu Principal/Texturas/boton2plus.png" id="5_qajr8"]
 [ext_resource type="Texture2D" uid="uid://2s3s2tsnxkd3" path="res://Arhex/Menu Principal/Texturas/boton1plus.png" id="6_peogr"]
@@ -21,6 +23,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_1fwe4")
+juego = ExtResource("2_tkvwk")
+controles = ExtResource("3_5eowh")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
 layout_mode = 1
@@ -132,6 +136,8 @@ text = "Salir
 stream = ExtResource("7_hoec3")
 volume_db = 3.705
 parameters/looping = true
+
+[node name="Botones" type="AudioStreamPlayer" parent="."]
 
 [connection signal="button_down" from="VBoxContainer2/NinePatchRect2/VBoxContainer/Jugar" to="." method="_on_jugar_button_down"]
 [connection signal="button_down" from="VBoxContainer2/NinePatchRect2/VBoxContainer/Opciones" to="." method="_on_opciones_button_down"]

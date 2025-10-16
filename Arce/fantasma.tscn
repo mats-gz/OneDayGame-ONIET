@@ -1,35 +1,38 @@
 [gd_scene load_steps=12 format=3 uid="uid://c7qlow34tqudx"]
 
 [ext_resource type="Script" uid="uid://ctlia4dx067b" path="res://Arce/fantasma.gd" id="1_q4q2t"]
-[ext_resource type="Texture2D" uid="uid://cc7frweqelm2g" path="res://Sprites/fantasmanoC_S.png" id="2_njso7"]
+[ext_resource type="Texture2D" uid="uid://bcxp14sqtcr71" path="res://Sprites/Enemigos, Trampas/fantasmanoS_S.png" id="2_q4q2t"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_3bylq"]
-atlas = ExtResource("2_njso7")
+[sub_resource type="AtlasTexture" id="AtlasTexture_njso7"]
+atlas = ExtResource("2_q4q2t")
 region = Rect2(0, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_nk1jg"]
-atlas = ExtResource("2_njso7")
+[sub_resource type="AtlasTexture" id="AtlasTexture_3bylq"]
+atlas = ExtResource("2_q4q2t")
 region = Rect2(128, 0, 128, 128)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_guxt0"]
-atlas = ExtResource("2_njso7")
+[sub_resource type="AtlasTexture" id="AtlasTexture_nk1jg"]
+atlas = ExtResource("2_q4q2t")
 region = Rect2(0, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_eokif"]
-atlas = ExtResource("2_njso7")
+[sub_resource type="AtlasTexture" id="AtlasTexture_guxt0"]
+atlas = ExtResource("2_q4q2t")
 region = Rect2(128, 128, 128, 128)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_5d7ps"]
-atlas = ExtResource("2_njso7")
+[sub_resource type="AtlasTexture" id="AtlasTexture_eokif"]
+atlas = ExtResource("2_q4q2t")
 region = Rect2(0, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_4j677"]
-atlas = ExtResource("2_njso7")
+[sub_resource type="AtlasTexture" id="AtlasTexture_5d7ps"]
+atlas = ExtResource("2_q4q2t")
 region = Rect2(128, 256, 128, 128)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_40nuc"]
 animations = [{
 "frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_njso7")
+}, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3bylq")
 }, {
@@ -44,37 +47,37 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5d7ps")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_4j677")
 }],
 "loop": true,
 "name": &"Idle",
-"speed": 10.0
+"speed": 6.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oslch"]
-size = Vector2(18.6667, 24.8)
+size = Vector2(8.80001, 8.53333)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_vjyrh"]
-radius = 48.0104
+radius = 25.0
 
 [node name="Fantasma" type="Area2D" groups=["ghost"]]
 script = ExtResource("1_q4q2t")
 
 [node name="Ghost_2D" type="AnimatedSprite2D" parent="." groups=["ghost"]]
+position = Vector2(1, 0)
+scale = Vector2(0.414063, 0.398438)
 sprite_frames = SubResource("SpriteFrames_40nuc")
 animation = &"Idle"
-frame_progress = 0.507496
+autoplay = "Idle"
+frame_progress = 0.950278
 
 [node name="RayCastDer" type="RayCast2D" parent="."]
-target_position = Vector2(47, 0)
+target_position = Vector2(33, 1)
 
 [node name="RayCastIzq" type="RayCast2D" parent="."]
-target_position = Vector2(-48, 0)
+target_position = Vector2(-29, 0)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(5, 5.5)
+position = Vector2(0, 1)
 scale = Vector2(3.75, 3.75)
 shape = SubResource("RectangleShape2D_oslch")
 

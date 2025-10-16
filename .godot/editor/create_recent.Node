@@ -1,27 +1,14 @@
-Camera2D
-Node
-TileMap
-Camera2D
-Node
-TileMap
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-NinePatchRect
 AudioStreamPlayer
+Camera2D
+Node
+TileMap
+Camera2D
+Node
+TileMap
+NinePatchRect
 AudioStreamPlayer2D
-=======
 Camera2D
 Node
 TileMap
->>>>>>> Stashed changes
-=======
 Camera2D
 Node
-TileMap
->>>>>>> Stashed changes
-CollisionShape2D
-AnimatedSprite2D
-CharacterBody2D
-VBoxContainer
-Button
-Label

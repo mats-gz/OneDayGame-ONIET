@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://c0fy7cy7t6e30"]
+[gd_scene load_steps=6 format=3 uid="uid://c0fy7cy7t6e30"]
 
 [ext_resource type="Texture2D" uid="uid://bbgxclryhg3h0" path="res://Sprites/Tilesets/Tileset_Pisos.png" id="1_4eena"]
 [ext_resource type="PackedScene" uid="uid://dfpj4jaewt82a" path="res://Guzman/Personajes/Protagonsita.tscn" id="2_4vg42"]
+[ext_resource type="PackedScene" uid="uid://c7qlow34tqudx" path="res://Arce/fantasma.tscn" id="3_yirv0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4vg42"]
 texture = ExtResource("1_4eena")
@@ -66,3 +67,6 @@ layer_1/tile_data = PackedInt32Array(65535, 65537, 0, 0, 65537, 0, 1, 65537, 0, 
 offset = Vector2(30, 0)
 zoom = Vector2(3, 3)
 limit_bottom = 30
+
+[node name="Fantasma" parent="Personajes" instance=ExtResource("3_yirv0")]
+position = Vector2(312, -112)

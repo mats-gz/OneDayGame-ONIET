@@ -1,7 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://dkpld8fl3btqh"]
+[gd_scene load_steps=9 format=3 uid="uid://dkpld8fl3btqh"]
 
 [ext_resource type="FontFile" uid="uid://6fkfu2veoax6" path="res://Arhex/arbutus/Arbutus-Regular.ttf" id="1_3io6q"]
+[ext_resource type="Script" uid="uid://cj4cvm0lph05d" path="res://Arhex/Controles/controles.gd" id="1_k3mer"]
 [ext_resource type="Texture2D" uid="uid://cgp615ppp3uf0" path="res://Arhex/Menu Principal/Texturas/boton2plus.png" id="2_52fua"]
+[ext_resource type="PackedScene" uid="uid://byoe3t30cf680" path="res://Arhex/Menu Principal/menu_principal.tscn" id="2_dh0na"]
 [ext_resource type="Texture2D" uid="uid://2s3s2tsnxkd3" path="res://Arhex/Menu Principal/Texturas/boton1plus.png" id="3_k3mer"]
 [ext_resource type="Texture2D" uid="uid://c3op7v7gtor77" path="res://Arhex/Controles/Tecla.png" id="4_52fua"]
 
@@ -18,6 +20,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_k3mer")
+Men = ExtResource("2_dh0na")
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
 layout_mode = 0
@@ -35,7 +39,7 @@ offset_bottom = -95.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Jugar" type="Button" parent="NinePatchRect/VBoxContainer"]
+[node name="Volver" type="Button" parent="NinePatchRect/VBoxContainer"]
 custom_minimum_size = Vector2(0, 120)
 layout_mode = 2
 theme_override_fonts/font = ExtResource("1_3io6q")
@@ -54,6 +58,7 @@ offset_bottom = 225.0
 texture = ExtResource("4_52fua")
 
 [node name="NinePatchRect3" type="NinePatchRect" parent="NinePatchRect2"]
+layout_mode = 0
 offset_left = 139.0
 offset_top = 118.0
 offset_right = 336.0
@@ -61,6 +66,7 @@ offset_bottom = 309.0
 texture = ExtResource("4_52fua")
 
 [node name="NinePatchRect4" type="NinePatchRect" parent="NinePatchRect2"]
+layout_mode = 0
 offset_left = 3.0
 offset_top = 119.0
 offset_right = 200.0
@@ -68,6 +74,7 @@ offset_bottom = 310.0
 texture = ExtResource("4_52fua")
 
 [node name="NinePatchRect5" type="NinePatchRect" parent="NinePatchRect2"]
+layout_mode = 0
 offset_left = -133.0
 offset_top = 119.0
 offset_right = 64.0
@@ -87,6 +94,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Label" type="Label" parent="NinePatchRect2/Label"]
+layout_mode = 0
 offset_left = 141.0
 offset_top = 118.0
 offset_right = 218.0
@@ -98,6 +106,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Label" type="Label" parent="NinePatchRect2/Label/Label"]
+layout_mode = 0
 offset_left = -137.0
 offset_top = 2.0
 offset_right = -60.0
@@ -109,6 +118,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Label" type="Label" parent="NinePatchRect2/Label/Label/Label"]
+layout_mode = 0
 offset_left = -137.0
 offset_top = 2.0
 offset_right = -60.0
@@ -120,6 +130,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="NinePatchRect2" type="NinePatchRect" parent="NinePatchRect2"]
+layout_mode = 0
 offset_left = 556.0
 offset_top = -3.0
 offset_right = 753.0
@@ -127,6 +138,7 @@ offset_bottom = 188.0
 texture = ExtResource("4_52fua")
 
 [node name="NinePatchRect3" type="NinePatchRect" parent="NinePatchRect2/NinePatchRect2"]
+layout_mode = 0
 offset_left = 139.0
 offset_top = 118.0
 offset_right = 336.0
@@ -134,6 +146,7 @@ offset_bottom = 309.0
 texture = ExtResource("4_52fua")
 
 [node name="NinePatchRect4" type="NinePatchRect" parent="NinePatchRect2/NinePatchRect2"]
+layout_mode = 0
 offset_left = 3.0
 offset_top = 119.0
 offset_right = 200.0
@@ -141,6 +154,7 @@ offset_bottom = 310.0
 texture = ExtResource("4_52fua")
 
 [node name="NinePatchRect5" type="NinePatchRect" parent="NinePatchRect2/NinePatchRect2"]
+layout_mode = 0
 offset_left = -133.0
 offset_top = 119.0
 offset_right = 64.0
@@ -160,6 +174,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Label" type="Label" parent="NinePatchRect2/NinePatchRect2/Label"]
+layout_mode = 0
 offset_left = 141.0
 offset_top = 118.0
 offset_right = 218.0
@@ -171,6 +186,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Label" type="Label" parent="NinePatchRect2/NinePatchRect2/Label/Label"]
+layout_mode = 0
 offset_left = -137.0
 offset_top = 2.0
 offset_right = -60.0
@@ -182,6 +198,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Label" type="Label" parent="NinePatchRect2/NinePatchRect2/Label/Label/Label"]
+layout_mode = 0
 offset_left = -137.0
 offset_top = 2.0
 offset_right = -60.0
@@ -225,3 +242,5 @@ theme_override_font_sizes/font_size = 50
 text = "Saltar"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[connection signal="button_down" from="NinePatchRect/VBoxContainer/Volver" to="." method="_on_volver_button_down"]
