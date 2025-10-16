@@ -1,7 +1,13 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 NinePatchRect
 AudioStreamPlayer
 AudioStreamPlayer2D
+=======
+Camera2D
+Node
+TileMap
+>>>>>>> Stashed changes
 =======
 Camera2D
 Node

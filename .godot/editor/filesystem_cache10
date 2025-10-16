@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ::res://::1760629947
 ::res://Arce/::1760628607
 Usuario.txt::TextFile/TextFile::-1::1760628607::0::1::::<><><>0<>0<><>::
@@ -33,6 +34,8 @@ Musica.txt::TextFile/TextFile::-1::1760628607::0::1::::<><><>0<>0<><>::
 Moises.png::CompressedTexture2D/CompressedTexture2D::2849148222839043037::1760628607::1760628774::1::::<><><>0<>0<>6c87f45241d8cce3a136c479034a3a4c<>res://.godot/imported/Moises.png-2d23ce0f30a63dadf6a0ef75060756e6.ctex::
 Sprites.txt::TextFile/TextFile::-1::1760628607::0::1::::<><><>0<>0<><>::
 =======
+=======
+>>>>>>> Stashed changes
 ::res://::1760631516
 ::res://Arce/::1760621708
 Usuario.txt::TextFile/TextFile::-1::1760621704::0::1::::<><><>0<>0<><>::
@@ -66,4 +69,7 @@ moises-quieto.png::CompressedTexture2D::8815734345893449056::1760632698::1760632
 Moises.png::CompressedTexture2D/CompressedTexture2D::2849148222839043037::1760622236::1760628876::1::::<><><>0<>0<>a39d17f3df93744367f5757059b2babb<>res://.godot/imported/Moises.png-d51970b1f15390f815da75d127aacbee.ctex::
 ::res://Sprites/Tilesets/::1760630227
 Tileset_Pisos.png::CompressedTexture2D::2470396461395530199::1760629923::1760630227::1::::<><><>0<>0<>db47f22a7f1542006aa50a3b5fa51bbc<>res://.godot/imported/Tileset_Pisos.png-2902d0975aa00d8a6e820abae277d24d.ctex::
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
