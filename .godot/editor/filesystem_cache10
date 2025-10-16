@@ -1,2 +1,23 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1760620862
+::res://::1760624652
+::res://Arce/::1760622146
+Usuario.txt::TextFile/TextFile::-1::1760622146::0::1::::<><><>0<>0<><>::
+::res://Arhex/::1760624652
+menu_principal.tscn::PackedScene::4100148132100086239::1760624652::0::1::::<><><>0<>0<><>::uid://de1od0juquemi::::res://Arhex/Menu Principal/menu_principal.gd<>uid://captp0je2c6fr::::res://Arhex/Menu Principal/Texturas/Fondo_Titulo.png<>uid://6fkfu2veoax6::::res://Arhex/arbutus/Arbutus-Regular.ttf<>uid://4j2xfio1aj5v::::res://Arhex/Menu Principal/Texturas/gilada.png<>uid://cgp615ppp3uf0::::res://Arhex/Menu Principal/Texturas/boton2plus.png<>uid://2s3s2tsnxkd3::::res://Arhex/Menu Principal/Texturas/boton1plus.png
+Usuario.txt::TextFile/TextFile::-1::1760622146::0::1::::<><><>0<>0<><>::
+::res://Arhex/arbutus/::1760622505
+Arbutus-Regular.ttf::FontFile/FontFile::2186793233583254333::1760622505::1760622505::1::::<><><>0<>0<>3c19129c2ae0e48e5ccdb20d4ce9d761<>res://.godot/imported/Arbutus-Regular.ttf-db846859692923d896f8df8947a8eccf.fontdata::
+SIL Open Font License.txt::TextFile/TextFile::-1::1760622505::0::1::::<><><>0<>0<><>::
+::res://Arhex/Menu Principal/::1760624652
+menu_principal.gd::GDScript::7494547970435306384::1760624159::0::1::::<>Control<><>0<>0<><>::
+::res://Arhex/Menu Principal/Texturas/::1760624646
+boton1plus.png::CompressedTexture2D/CompressedTexture2D::1933991246205562930::1760624336::1760624641::1::::<><><>0<>0<>7dc80f854ed11c0cdaa76ec8ad9e8771<>res://.godot/imported/boton1plus.png-0b5de8c89ea2ec31d137b7bdd21faacd.ctex::
+boton2plus.png::CompressedTexture2D/CompressedTexture2D::5226870352517851523::1760624386::1760624643::1::::<><><>0<>0<>15bf8bb609459ee42efc328406beb4d2<>res://.godot/imported/boton2plus.png-cfd3d033f7d60512afb6ed6e42f7f2eb.ctex::
+Fondo_Titulo.png::CompressedTexture2D/CompressedTexture2D::4804988770673165751::1760624326::1760624645::1::::<><><>0<>0<>23ea212bf1894b2f021972d0e1bcdf22<>res://.godot/imported/Fondo_Titulo.png-ea1989b5946741d9bb930941b97490dd.ctex::
+gilada.png::CompressedTexture2D/CompressedTexture2D::2055736573000022421::1760623317::1760624646::1::::<><><>0<>0<>1c42ebee386f7182fc3781bd0387ea95<>res://.godot/imported/gilada.png-365484a2961575ca2c3bd218fbdf9b27.ctex::
+::res://Guzman/::1760622146
+Usuario.txt::TextFile/TextFile::-1::1760622146::0::1::::<><><>0<>0<><>::
+::res://Musica/::1760622146
+Musica.txt::TextFile/TextFile::-1::1760622146::0::1::::<><><>0<>0<><>::
+::res://Sprites/::1760622146
+Sprites.txt::TextFile/TextFile::-1::1760622146::0::1::::<><><>0<>0<><>::
